@@ -51,7 +51,14 @@ Usage:
   `orderbot order --sell-coin={coin sell} --buy-coin={coin buy} --spend={spend coin}`  
   example:  
   `orderbot order --sell-coin=BNB --buy-coin=USDT --spend=0.1`  
-    
+
+- Start:  
+  Start the auto order bot, each times, bot spend an amount of `spend-each` coin to buy  
+  Start bot order
+  `orderbot start --sell-coin={coin sell} --buy-coin={coin buy} --stop-balance={balance remain that make stop immediately} --spend-each={coin spend each order} --min-price={min price}`  
+  example:
+  `orderbot start --sell-coin=BNB --buy-coin=USDT --stop-balance=4.1 --spend-each=0.01 --min-price=400` 
+  
 Warning:
 -
 
